@@ -1,0 +1,106 @@
+"tissue","Category","n"
+"Adrenal Gland","Cancer",4
+"Brain - Cerebellum","Cancer",17
+"Brain - Cortex","Cancer",1
+"Brain - Substantia nigra","Cancer",0
+"Esophagus - Mucosa","Cancer",0
+"Heart - Atrial Appendage","Cancer",7
+"Lung","Cancer",2
+"Muscle - Skeletal","Cancer",30
+"Nerve - Tibial","Cancer",0
+"Pituitary","Cancer",1
+"Skin - Not Sun Exposed (Suprapubic)","Cancer",0
+"Skin - Sun Exposed (Lower leg)","Cancer",4
+"Thyroid","Cancer",1
+"Uterus","Cancer",1
+"Spleen","Cancer",0
+"Adrenal Gland","Cardiovascular disease",5
+"Brain - Cerebellum","Cardiovascular disease",13
+"Brain - Cortex","Cardiovascular disease",1
+"Brain - Substantia nigra","Cardiovascular disease",0
+"Esophagus - Mucosa","Cardiovascular disease",0
+"Heart - Atrial Appendage","Cardiovascular disease",2
+"Lung","Cardiovascular disease",1
+"Muscle - Skeletal","Cardiovascular disease",16
+"Nerve - Tibial","Cardiovascular disease",0
+"Pituitary","Cardiovascular disease",0
+"Skin - Not Sun Exposed (Suprapubic)","Cardiovascular disease",0
+"Skin - Sun Exposed (Lower leg)","Cardiovascular disease",2
+"Thyroid","Cardiovascular disease",0
+"Uterus","Cardiovascular disease",0
+"Spleen","Cardiovascular disease",0
+"Adrenal Gland","Immune system disorder",2
+"Brain - Cerebellum","Immune system disorder",4
+"Brain - Cortex","Immune system disorder",0
+"Brain - Substantia nigra","Immune system disorder",0
+"Esophagus - Mucosa","Immune system disorder",0
+"Heart - Atrial Appendage","Immune system disorder",4
+"Lung","Immune system disorder",0
+"Muscle - Skeletal","Immune system disorder",23
+"Nerve - Tibial","Immune system disorder",0
+"Pituitary","Immune system disorder",0
+"Skin - Not Sun Exposed (Suprapubic)","Immune system disorder",0
+"Skin - Sun Exposed (Lower leg)","Immune system disorder",0
+"Thyroid","Immune system disorder",0
+"Uterus","Immune system disorder",0
+"Spleen","Immune system disorder",0
+"Adrenal Gland","Metabolic disorder",2
+"Brain - Cerebellum","Metabolic disorder",3
+"Brain - Cortex","Metabolic disorder",0
+"Brain - Substantia nigra","Metabolic disorder",0
+"Esophagus - Mucosa","Metabolic disorder",0
+"Heart - Atrial Appendage","Metabolic disorder",1
+"Lung","Metabolic disorder",0
+"Muscle - Skeletal","Metabolic disorder",5
+"Nerve - Tibial","Metabolic disorder",0
+"Pituitary","Metabolic disorder",0
+"Skin - Not Sun Exposed (Suprapubic)","Metabolic disorder",0
+"Skin - Sun Exposed (Lower leg)","Metabolic disorder",1
+"Thyroid","Metabolic disorder",0
+"Uterus","Metabolic disorder",0
+"Spleen","Metabolic disorder",0
+"Adrenal Gland","Neurological disorder",5
+"Brain - Cerebellum","Neurological disorder",7
+"Brain - Cortex","Neurological disorder",3
+"Brain - Substantia nigra","Neurological disorder",0
+"Esophagus - Mucosa","Neurological disorder",0
+"Heart - Atrial Appendage","Neurological disorder",2
+"Lung","Neurological disorder",2
+"Muscle - Skeletal","Neurological disorder",26
+"Nerve - Tibial","Neurological disorder",0
+"Pituitary","Neurological disorder",0
+"Skin - Not Sun Exposed (Suprapubic)","Neurological disorder",0
+"Skin - Sun Exposed (Lower leg)","Neurological disorder",11
+"Thyroid","Neurological disorder",1
+"Uterus","Neurological disorder",0
+"Spleen","Neurological disorder",0
+"Adrenal Gland","Other disease",5
+"Brain - Cerebellum","Other disease",21
+"Brain - Cortex","Other disease",2
+"Brain - Substantia nigra","Other disease",1
+"Esophagus - Mucosa","Other disease",1
+"Heart - Atrial Appendage","Other disease",7
+"Lung","Other disease",7
+"Muscle - Skeletal","Other disease",38
+"Nerve - Tibial","Other disease",2
+"Pituitary","Other disease",0
+"Skin - Not Sun Exposed (Suprapubic)","Other disease",1
+"Skin - Sun Exposed (Lower leg)","Other disease",3
+"Thyroid","Other disease",0
+"Uterus","Other disease",1
+"Spleen","Other disease",0
+"Adrenal Gland","Digestive system disorder",0
+"Brain - Cerebellum","Digestive system disorder",4
+"Brain - Cortex","Digestive system disorder",0
+"Brain - Substantia nigra","Digestive system disorder",0
+"Esophagus - Mucosa","Digestive system disorder",0
+"Heart - Atrial Appendage","Digestive system disorder",0
+"Lung","Digestive system disorder",0
+"Muscle - Skeletal","Digestive system disorder",12
+"Nerve - Tibial","Digestive system disorder",2
+"Pituitary","Digestive system disorder",0
+"Skin - Not Sun Exposed (Suprapubic)","Digestive system disorder",0
+"Skin - Sun Exposed (Lower leg)","Digestive system disorder",3
+"Thyroid","Digestive system disorder",0
+"Uterus","Digestive system disorder",0
+"Spleen","Digestive system disorder",0

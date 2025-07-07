@@ -1,0 +1,173 @@
+Variation ID	Chromosome	Position	Overlapped Gene	Type	Annotation	Nearest Upstream Gene	Type of Nearest Upstream Gene	Distance to Nearest Upstream Gene	Nearest Downstream Gene	Type of Nearest Downstream Gene	Distance to Nearest Downstream Gene
+chr1:24383708:G/A:1	chr1	24383708	STPG1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr1:41474651:C/T:1	chr1	41474651	None	None	None	RNA5SP45	rRNA_pseudogene	7623	EDN2	protein_coding	4124
+chr1:150288186:C/A:1	chr1	150288186	None	None	None	CIART	protein_coding	1093	MRPS21	protein_coding	5534
+chr1:224495124:G/A:1	chr1	224495124	CNIH3	protein_coding	non-coding intronic	None	None	None	None	None	None
+chr10:41553481:C/T:1	chr10	41553481	None	None	None	AL590623.1	processed_pseudogene	2770373	KSR1P1	processed_pseudogene	595829
+chr11:101897424:T/C:1	chr11	101897424	ANGPTL5	protein_coding	intronic	None	None	None	None	None	None
+chr11:101904261:T/C:1	chr11	101904261	ANGPTL5	protein_coding	intronic	None	None	None	None	None	None
+chr11:111326257:G/T:1	chr11	111326257	None	None	None	COLCA2	protein_coding	17522	MIR4491	miRNA	21500
+chr11:111333621:C/T:1	chr11	111333621	None	None	None	COLCA2	protein_coding	24886	MIR4491	miRNA	14136
+chr11:118886492:C/G:1	chr11	118886492	CXCR5	protein_coding	intronic	None	None	None	None	None	None
+chr11:118886492:C/G:1	chr11	118886492	AP004609.1	antisense	non-coding	None	None	None	None	None	None
+chr12:43633165:C/A:1	chr12	43633165	AC090525.3	processed_pseudogene	non-coding	None	None	None	None	None	None
+chr12:43634158:A/G:1	chr12	43634158	None	None	None	AC090525.3	processed_pseudogene	877	EEF1A1P17	processed_pseudogene	25669
+chr12:43645409:C/T:1	chr12	43645409	None	None	None	AC090525.3	processed_pseudogene	12128	EEF1A1P17	processed_pseudogene	14418
+chr12:43670858:T/G:1	chr12	43670858	None	None	None	EEF1A1P17	processed_pseudogene	9757	PUS7L	protein_coding	48135
+chr12:43680159:G/A:1	chr12	43680159	None	None	None	EEF1A1P17	processed_pseudogene	19058	PUS7L	protein_coding	38834
+chr12:43862254:T/C:1	chr12	43862254	TMEM117	protein_coding	intronic	None	None	None	None	None	None
+chr12:43873785:T/C:1	chr12	43873785	TMEM117	protein_coding	intronic	None	None	None	None	None	None
+chr12:47933195:A/G:1	chr12	47933195	VDR	protein_coding	intronic	None	None	None	None	None	None
+chr12:47937039:G/T:1	chr12	47937039	VDR	protein_coding	intronic	None	None	None	None	None	None
+chr12:51961154:A/G:1	chr12	51961154	ACVR1B	protein_coding	intronic	None	None	None	None	None	None
+chr12:64058373:A/G:1	chr12	64058373	SRGAP1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr12:64058373:A/G:1	chr12	64058373	AC020611.2	antisense	non-coding intronic	None	None	None	None	None	None
+chr12:64062469:A/T:1	chr12	64062469	SRGAP1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr12:64062469:A/T:1	chr12	64062469	AC020611.2	antisense	non-coding intronic	None	None	None	None	None	None
+chr12:64079023:A/T:1	chr12	64079023	SRGAP1	protein_coding	non-coding,coding syn	None	None	None	None	None	None
+chr12:64079023:A/T:1	chr12	64079023	AC020611.2	antisense	non-coding intronic	None	None	None	None	None	None
+chr12:96494446:G/A:1	chr12	96494446	CFAP54	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr13:73419755:T/C:1	chr13	73419755	LINC00393	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr13:73425168:T/C:1	chr13	73425168	LINC00393	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr13:107304670:C/A:1	chr13	107304670	FAM155A	protein_coding	intronic	None	None	None	None	None	None
+chr14:89118020:C/T:1	chr14	89118020	None	None	None	MPPE1P1	processed_pseudogene	6797	FOXN3	protein_coding	6851
+chr14:89119953:A/T:1	chr14	89119953	None	None	None	MPPE1P1	processed_pseudogene	8730	FOXN3	protein_coding	4918
+chr14:89121310:G/A:1	chr14	89121310	None	None	None	MPPE1P1	processed_pseudogene	10087	FOXN3	protein_coding	3561
+chr14:89123581:C/T:1	chr14	89123581	None	None	None	MPPE1P1	processed_pseudogene	12358	FOXN3	protein_coding	1290
+chr14:89127080:G/A:1	chr14	89127080	FOXN3	protein_coding	intronic	None	None	None	None	None	None
+chr14:89129936:A/G:1	chr14	89129936	FOXN3	protein_coding	intronic	None	None	None	None	None	None
+chr14:89130391:C/T:1	chr14	89130391	FOXN3	protein_coding	intronic	None	None	None	None	None	None
+chr14:89130769:C/T:1	chr14	89130769	FOXN3	protein_coding	intronic	None	None	None	None	None	None
+chr14:92945306:G/A:1	chr14	92945306	ITPK1	protein_coding	3downstream,intronic	None	None	None	None	None	None
+chr14:92950907:G/A:1	chr14	92950907	ITPK1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr14:92953102:C/T:1	chr14	92953102	ITPK1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr14:92955059:G/A:1	chr14	92955059	ITPK1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr14:104554254:G/A:1	chr14	104554254	TMEM179	protein_coding	intronic	None	None	None	None	None	None
+chr15:56562466:C/A:1	chr15	56562466	AC090518.1	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr15:56577755:G/T:1	chr15	56577755	AC090518.1	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr15:64895334:C/T:1	chr15	64895334	AC069368.1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr17:15880460:G/T:1	chr17	15880460	SPECC1P1	transcribed_unprocessed_pseudogene	non-coding intronic	None	None	None	None	None	None
+chr2:174435:A/T:1	chr2	174435	None	None	None	FAM110C	protein_coding	127565	AC079779.1	antisense	23134
+chr2:13776828:C/T:1	chr2	13776828	LINC00276	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr2:20234563:G/T:1	chr2	20234563	None	None	None	SDC1	protein_coding	9130	AC007041.1	processed_pseudogene	5329
+chr2:20386478:A/G:1	chr2	20386478	SLC7A15P	unitary_pseudogene	non-coding	None	None	None	None	None	None
+chr2:45697873:T/C:1	chr2	45697873	PRKCE	protein_coding	intronic,non-coding intronic,5upstream	None	None	None	None	None	None
+chr2:168768525:G/A:1	chr2	168768525	CERS6	protein_coding	intronic	None	None	None	None	None	None
+chr2:172241860:C/T:1	chr2	172241860	None	None	None	DLX2-DT	lincRNA	131878	AC104088.1	lincRNA	73427
+chr20:58324685:T/G:1	chr20	58324685	RAB22A	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr21:19742506:T/G:1	chr21	19742506	None	None	None	AP000568.1	processed_pseudogene	2356	C1QBPP1	processed_pseudogene	16853
+chr21:19742512:G/C:1	chr21	19742512	None	None	None	AP000568.1	processed_pseudogene	2362	C1QBPP1	processed_pseudogene	16847
+chr21:19742518:A/G:1	chr21	19742518	None	None	None	AP000568.1	processed_pseudogene	2368	C1QBPP1	processed_pseudogene	16841
+chr3:95799902:C/G:1	chr3	95799902	None	None	None	MTHFD2P1	transcribed_processed_pseudogene	116709	AC107304.1	processed_pseudogene	444830
+chr3:123712159:T/C:1	chr3	123712159	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123714567:A/G:1	chr3	123714567	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123714904:T/C:1	chr3	123714904	MYLK	protein_coding	intronic,non-coding intronic	None	None	None	None	None	None
+chr3:123715019:G/A:1	chr3	123715019	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123715922:A/G:1	chr3	123715922	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123715922:A/G:1	chr3	123715922	AC020634.1	antisense	non-coding	None	None	None	None	None	None
+chr3:123716725:C/G:1	chr3	123716725	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123716871:T/C:1	chr3	123716871	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123717438:C/T:1	chr3	123717438	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123717905:G/A:1	chr3	123717905	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123719195:G/A:1	chr3	123719195	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123720127:G/C:1	chr3	123720127	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123741015:T/A:1	chr3	123741015	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:123741626:A/C:1	chr3	123741626	MYLK	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr3:165996886:C/T:1	chr3	165996886	None	None	None	BCHE	protein_coding	159414	MTND4P17	processed_pseudogene	163135
+chr3:183718354:G/T:1	chr3	183718354	YEATS2	protein_coding	intronic	None	None	None	None	None	None
+chr3:184440662:C/G:1	chr3	184440662	LINC02054	lincRNA	3downstream,non-coding intronic	None	None	None	None	None	None
+chr3:186372589:T/C:1	chr3	186372589	None	None	None	DGKG	protein_coding	10352	LINC02020	lincRNA	67756
+chr3:190599279:G/A:1	chr3	190599279	IL1RAP	protein_coding	intronic	None	None	None	None	None	None
+chr4:5650646:G/T:1	chr4	5650646	EVC2	protein_coding	intronic	None	None	None	None	None	None
+chr4:42819917:G/A:1	chr4	42819917	None	None	None	AC096734.1	lincRNA	112582	RN7SKP82	misc_RNA	72479
+chr4:43224346:C/T:1	chr4	43224346	AC111198.1	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr4:43247871:A/G:1	chr4	43247871	None	None	None	AC111198.1	lincRNA	12915	AC097451.1	processed_transcript	93004
+chr4:43251889:C/T:1	chr4	43251889	None	None	None	AC111198.1	lincRNA	16933	AC097451.1	processed_transcript	88986
+chr4:43312059:G/A:1	chr4	43312059	None	None	None	AC111198.1	lincRNA	77103	AC097451.1	processed_transcript	28816
+chr4:43630277:G/A:1	chr4	43630277	None	None	None	RN7SL691P	misc_RNA	31433	RN7SL193P	misc_RNA	232997
+chr4:43639675:G/C:1	chr4	43639675	None	None	None	RN7SL691P	misc_RNA	40831	RN7SL193P	misc_RNA	223599
+chr4:43942121:G/T:1	chr4	43942121	None	None	None	NDUFB4P12	processed_pseudogene	42770	AC110799.1	lincRNA	37885
+chr4:112729971:G/C:1	chr4	112729971	None	None	None	AC106864.2	lincRNA	23161	AC017007.3	processed_pseudogene	8701
+chr4:112739807:A/G:1	chr4	112739807	None	None	None	AC017007.3	processed_pseudogene	701	RF00019	misc_RNA	16009
+chr4:112748422:A/G:1	chr4	112748422	None	None	None	AC017007.3	processed_pseudogene	9316	RF00019	misc_RNA	7394
+chr4:112754330:G/A:1	chr4	112754330	None	None	None	AC017007.3	processed_pseudogene	15224	RF00019	misc_RNA	1486
+chr4:112754876:C/T:1	chr4	112754876	None	None	None	AC017007.3	processed_pseudogene	15770	RF00019	misc_RNA	940
+chr4:112754920:A/G:1	chr4	112754920	None	None	None	AC017007.3	processed_pseudogene	15814	RF00019	misc_RNA	896
+chr4:112756541:A/G:1	chr4	112756541	None	None	None	RF00019	misc_RNA	624	RPL7AP30	processed_pseudogene	31542
+chr4:112764594:G/A:1	chr4	112764594	None	None	None	RF00019	misc_RNA	8677	RPL7AP30	processed_pseudogene	23489
+chr4:112765157:C/T:1	chr4	112765157	None	None	None	RF00019	misc_RNA	9240	RPL7AP30	processed_pseudogene	22926
+chr4:112828361:G/A:1	chr4	112828361	ANK2	protein_coding	intronic	None	None	None	None	None	None
+chr4:112831009:G/A:1	chr4	112831009	ANK2	protein_coding	intronic	None	None	None	None	None	None
+chr4:112831152:C/T:1	chr4	112831152	ANK2	protein_coding	intronic	None	None	None	None	None	None
+chr4:112831253:G/A:1	chr4	112831253	ANK2	protein_coding	intronic	None	None	None	None	None	None
+chr4:112832091:G/A:1	chr4	112832091	ANK2	protein_coding	intronic	None	None	None	None	None	None
+chr4:112842406:A/G:1	chr4	112842406	ANK2	protein_coding	intronic	None	None	None	None	None	None
+chr4:125602362:T/C:1	chr4	125602362	None	None	None	MIR2054	miRNA	95055	AC105919.1	lincRNA	74356
+chr5:57438193:C/A:1	chr5	57438193	AC025470.2	antisense	non-coding intronic	None	None	None	None	None	None
+chr5:57449388:T/A:1	chr5	57449388	AC025470.2	antisense	non-coding intronic	None	None	None	None	None	None
+chr5:90922764:A/G:1	chr5	90922764	ADGRV1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr5:122188062:G/A:1	chr5	122188062	None	None	None	AC010255.3	protein_coding	4113	AC113349.2	antisense	123235
+chr5:176530405:C/T:1	chr5	176530405	RNF44	protein_coding	intronic,3downstream,non-coding intronic,5upstream	None	None	None	None	None	None
+chr6:5708560:A/G:1	chr6	5708560	FARS2	protein_coding	intronic	None	None	None	None	None	None
+chr6:5709901:T/A:1	chr6	5709901	FARS2	protein_coding	intronic	None	None	None	None	None	None
+chr6:5709995:T/C:1	chr6	5709995	FARS2	protein_coding	intronic	None	None	None	None	None	None
+chr6:39059330:C/T:1	chr6	39059330	GLP1R	protein_coding	intronic	None	None	None	None	None	None
+chr6:39065817:G/A:1	chr6	39065817	GLP1R	protein_coding	coding syn	None	None	None	None	None	None
+chr6:39069399:C/T:1	chr6	39069399	GLP1R	protein_coding	intronic	None	None	None	None	None	None
+chr6:39073934:C/T:1	chr6	39073934	GLP1R	protein_coding	intronic	None	None	None	None	None	None
+chr6:39076216:G/A:1	chr6	39076216	GLP1R	protein_coding	intronic	None	None	None	None	None	None
+chr6:39078023:C/A:1	chr6	39078023	GLP1R	protein_coding	intronic	None	None	None	None	None	None
+chr6:39085412:C/T:1	chr6	39085412	GLP1R	protein_coding	intronic	None	None	None	None	None	None
+chr6:109182597:A/G:1	chr6	109182597	CCDC162P	transcribed_unitary_pseudogene	non-coding intronic	None	None	None	None	None	None
+chr6:142655372:C/T:1	chr6	142655372	None	None	None	AL359313.1	lincRNA	17483	AL023584.1	antisense	93071
+chr6:142658062:T/A:1	chr6	142658062	None	None	None	AL359313.1	lincRNA	20173	AL023584.1	antisense	90381
+chr6:142658119:A/T:1	chr6	142658119	None	None	None	AL359313.1	lincRNA	20230	AL023584.1	antisense	90324
+chr6:142660032:C/G:1	chr6	142660032	None	None	None	AL359313.1	lincRNA	22143	AL023584.1	antisense	88411
+chr6:142660552:C/A:1	chr6	142660552	None	None	None	AL359313.1	lincRNA	22663	AL023584.1	antisense	87891
+chr6:142660782:A/C:1	chr6	142660782	None	None	None	AL359313.1	lincRNA	22893	AL023584.1	antisense	87661
+chr6:142660936:G/T:1	chr6	142660936	None	None	None	AL359313.1	lincRNA	23047	AL023584.1	antisense	87507
+chr6:142662790:C/T:1	chr6	142662790	None	None	None	AL359313.1	lincRNA	24901	AL023584.1	antisense	85653
+chr6:142666170:C/T:1	chr6	142666170	None	None	None	AL359313.1	lincRNA	28281	AL023584.1	antisense	82273
+chr6:142667945:A/T:1	chr6	142667945	None	None	None	AL359313.1	lincRNA	30056	AL023584.1	antisense	80498
+chr6:142670217:G/T:1	chr6	142670217	None	None	None	AL359313.1	lincRNA	32328	AL023584.1	antisense	78226
+chr6:142672304:G/A:1	chr6	142672304	None	None	None	AL359313.1	lincRNA	34415	AL023584.1	antisense	76139
+chr6:142672800:T/C:1	chr6	142672800	None	None	None	AL359313.1	lincRNA	34911	AL023584.1	antisense	75643
+chr7:5163521:G/A:1	chr7	5163521	None	None	None	ZNF890P	transcribed_unprocessed_pseudogene	18975	RNU6-215P	snRNA	16540
+chr7:95474190:T/C:1	chr7	95474190	None	None	None	AC004012.1	lincRNA	192	ASB4	protein_coding	4254
+chr7:95474368:C/T:1	chr7	95474368	None	None	None	AC004012.1	lincRNA	370	ASB4	protein_coding	4076
+chr7:95478760:C/T:1	chr7	95478760	ASB4	protein_coding	non-coding intronic	None	None	None	None	None	None
+chr7:95482227:C/A:1	chr7	95482227	ASB4	protein_coding	non-coding intronic	None	None	None	None	None	None
+chr7:95486020:G/C:1	chr7	95486020	ASB4	protein_coding	non-coding intronic,coding nonsyn	None	None	None	None	None	None
+chr7:95486756:C/A:1	chr7	95486756	ASB4	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr7:95487565:A/T:1	chr7	95487565	ASB4	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr7:95489407:A/G:1	chr7	95489407	ASB4	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr7:95499710:A/G:1	chr7	95499710	ASB4	protein_coding	intronic	None	None	None	None	None	None
+chr7:124590814:T/G:1	chr7	124590814	None	None	None	AC005521.1	processed_pseudogene	109419	RNU6-102P	snRNA	56905
+chr7:124693040:T/C:1	chr7	124693040	None	None	None	RNU6-102P	snRNA	45218	AC004925.1	TEC	49272
+chr7:124694619:C/T:1	chr7	124694619	None	None	None	RNU6-102P	snRNA	46797	AC004925.1	TEC	47693
+chr7:124695580:C/T:1	chr7	124695580	None	None	None	RNU6-102P	snRNA	47758	AC004925.1	TEC	46732
+chr7:134563187:A/G:1	chr7	134563187	AKR1B15	protein_coding	intronic,5upstream	None	None	None	None	None	None
+chr7:134615391:C/T:1	chr7	134615391	None	None	None	AKR1B15	protein_coding	35516	BPGM	protein_coding	31417
+chr8:32280680:G/T:1	chr8	32280680	NRG1	protein_coding	non-coding intronic,intronic	None	None	None	None	None	None
+chr8:106533736:T/C:1	chr8	106533736	OXR1	protein_coding	intronic	None	None	None	None	None	None
+chr8:106533736:T/C:1	chr8	106533736	AC090579.1	antisense	non-coding intronic	None	None	None	None	None	None
+chr8:128830071:G/A:1	chr8	128830071	CCDC26	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr8:128837999:T/C:1	chr8	128837999	CCDC26	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr8:128838208:T/C:1	chr8	128838208	CCDC26	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr8:137670315:G/C:1	chr8	137670315	None	None	None	AC105213.1	lincRNA	24751	AC110053.1	processed_pseudogene	26409
+chr8:137672585:G/A:1	chr8	137672585	None	None	None	AC105213.1	lincRNA	27021	AC110053.1	processed_pseudogene	24139
+chr8:137678972:G/A:1	chr8	137678972	None	None	None	AC105213.1	lincRNA	33408	AC110053.1	processed_pseudogene	17752
+chr9:35774194:T/C:1	chr9	35774194	AL133410.1	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr9:97782358:G/T:1	chr9	97782358	PTCSC2	lincRNA	non-coding intronic	None	None	None	None	None	None
+chr9:98034007:A/G:1	chr9	98034007	None	None	None	RNU6-918P	snRNA	1672	NANS	protein_coding	22732
+chrX:100283:C/T:1	chrX	100283	None	None	None	None	None	None	AL954722.1	unprocessed_pseudogene	153460
+chrX:2174092:C/T:1	chrX	2174092	None	None	None	AL683807.2	lincRNA	405316	DHRSX	protein_coding	45424
+chrX:8041834:T/C:1	chrX	8041834	None	None	None	AC078960.1	lincRNA	23674	AC097626.1	antisense	3352
+chrX:14026712:A/G:1	chrX	14026712	GEMIN8	protein_coding	intronic,non-coding intronic	None	None	None	None	None	None
+chrX:43612201:G/A:1	chrX	43612201	None	None	None	AL023574.1	lincRNA	173544	MAOA	protein_coding	42706
+chrX:54428459:G/C:1	chrX	54428459	None	None	None	WNK3	protein_coding	69817	TSR2	protein_coding	11942
+chrX:56473557:A/T:1	chrX	56473557	None	None	None	KLF8	protein_coding	185668	UBQLN2	protein_coding	90082
+chrX:91383163:C/A:1	chrX	91383163	None	None	None	AL121823.1	lincRNA	74285	PABPC5-AS1	antisense	31715
+chrX:96787707:T/A:1	chrX	96787707	DIAPH2	protein_coding	intronic	None	None	None	None	None	None
+chrX:123758926:G/A:1	chrX	123758926	None	None	None	THOC2	protein_coding	25870	MEMO1P4	processed_pseudogene	6375
+chrX:144837659:T/C:1	chrX	144837659	None	None	None	RRM2P4	processed_pseudogene	527966	HNRNPCP10	processed_pseudogene	3118
