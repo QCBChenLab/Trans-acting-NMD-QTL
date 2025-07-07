@@ -1,11 +1,11 @@
 # NMD Gene Analysis Pipeline
 
-This repository contains the complete computational pipeline for analyzing nonsense-mediated decay (NMD) gene associations with genetic variants. The pipeline is organized into modular scripts for reproducibility and transparency in scientific publication.
+This repository contains the computational pipeline for paper ***Functional validation of NMD-QTL-mapped genes in cancer cell lines and GTEx normal samples***. The pipeline is organized into modular scripts for reproducibility and transparency.
 
 ## 📁 Repository Structure
 
 ```
-Git/
+Trans-acting-NMD-QTL/
 ├── README.md                    # This file
 ├── requirements.R               # R package dependencies
 ├── scripts/                     # Analysis modules
@@ -15,13 +15,13 @@ Git/
 │   ├── 03_manhattan_plot.R     # Manhattan plot generation
 │   ├── 04_gwas_overlap.R       # GWAS catalog overlap analysis
 │   ├── 05_rbp_analysis.R       # RNA-binding protein analysis
-│   └── 06_cancer_ko_analysis.R # Cancer knockout analysis
+│   ├── 06_cancer_ko_analysis.R # Cancer knockout analysis
+│   └── derive_deviation_scores.R # Deviation score calculation
 ├── data/                       # Data files (see Data Requirements)
 ├── output/                     # Generated outputs
 │   ├── plots/                  # Publication-ready figures
 │   ├── tables/                 # Summary tables and results
-│   └── GWAS_overlap/           # GWAS catalog overlap results
-└── docs/                       # Documentation (optional)
+└── └── GWAS_overlap/           # GWAS catalog overlap results
 ```
 
 ## 🚀 Quick Start
@@ -162,15 +162,10 @@ pvalue_cutoff <- 0.05  # Change GO analysis p-value threshold
                       mirror="useast")
    ```
 
-2. **Memory issues with large datasets**
-   - Increase R memory limit
-   - Process data in chunks
-   - Use data.table for large files
-
-3. **Missing data files**
+2. **Missing data files**
    - Check file paths in error messages
    - Verify data file locations
-   - Some analyses will skip gracefully if data unavailable
+   - Some analyses will need data with permision
 
 ### Error Reporting
 
@@ -217,11 +212,6 @@ This pipeline was developed for a specific research project. For modifications o
 3. Submit pull requests with detailed descriptions
 4. Include test data when possible
 
-## 📞 Contact
-
-For questions or issues:
-- Create an issue in this repository
-- Contact: 
 
 ## 📜 License
 
