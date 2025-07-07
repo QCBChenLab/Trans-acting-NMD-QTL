@@ -217,8 +217,3 @@ This pipeline was developed for a specific research project. For modifications o
 
 This code is provided for research purposes. Please see the license file for details.
 
----
-
-**Last Updated:** January 2025  
-**Version:** 1.0.0  
-**Compatibility:** R ≥ 4.0.0 
