@@ -1,6 +1,6 @@
-# NMD Gene Analysis Pipeline
+# Trans-acting NMD Modulator Mapping Pipeline
 
-This repository contains the computational pipeline for paper ***Functional validation of NMD-QTL-mapped genes in cancer cell lines and GTEx normal samples***. The pipeline is organized into modular scripts for reproducibility and transparency.
+This repository contains the computational pipeline for paper ***Identification of tissue-specific NMD modulators via novel trans-acting molecular QTL mapping***. The pipeline is organized into modular scripts for reproducibility and transparency.
 
 ## 📁 Repository Structure
 
