@@ -7,7 +7,7 @@ cran_packages <- c(
   "viridis", "gridExtra", "RColorBrewer", "ComplexUpset", "ggsci",
   "grid", "patchwork", "data.table", "reshape2", "broom",
   "qqman", "GenomicRanges", "tximport", "DESeq2", "RNOmni",
-  "igraph", "coloc"
+  "igraph", "coloc", "readxl", "scales", "ggpubr"
 )
 
 # Bioconductor packages
