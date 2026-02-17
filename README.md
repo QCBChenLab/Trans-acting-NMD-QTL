@@ -2,33 +2,37 @@
 
 This repository contains the computational pipeline for paper ***Identification of tissue-specific NMD modulators via novel trans-acting molecular QTL mapping***. The pipeline is organized into modular scripts for reproducibility and transparency.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Trans-acting-NMD-QTL/
-├── README.md                    # This file
-├── requirements.R               # R package dependencies
-├── scripts/                     # Analysis modules
-│   ├── 00_data_loading.R       # Data loading and common functions
-│   ├── 01_tissue_distribution.R # Tissue-wise SNP distribution analysis
-│   ├── 02_snp_annotation.R     # SNP annotation with biomaRt
-│   ├── 03_manhattan_plot.R     # Manhattan plot generation
-│   ├── 04_gwas_overlap.R       # GWAS catalog overlap analysis
-│   ├── 05_rbp_analysis.R       # RNA-binding protein analysis
-│   ├── 06_cancer_ko_analysis.R # Cancer knockout analysis
-│   └── derive_deviation_scores.R # Deviation score calculation
-├── data/                       # Data files (see Data Requirements)
-├── output/                     # Generated outputs
-│   ├── plots/                  # Publication-ready figures
-│   ├── tables/                 # Summary tables and results
-└── └── GWAS_overlap/           # GWAS catalog overlap results
+├── README.md                        # This file
+├── requirements.R                   # R package dependencies
+├── setup_data.R                     # Data setup helper
+├── derive_deviation_scores.R        # Deviation score calculation
+├── scripts/                         # Analysis modules
+│   ├── 00_data_loading.R            # Data loading and common functions
+│   ├── 01_tissue_distribution.R     # Tissue-wise SNP distribution analysis
+│   ├── 02_snp_annotation.R          # SNP annotation with biomaRt
+│   ├── 03_manhattan_plot.R          # Manhattan plot generation
+│   ├── 04_gwas_overlap.R           # GWAS catalog overlap analysis
+│   ├── 05_rbp_analysis.R           # RNA-binding protein analysis
+│   ├── 06_cancer_ko_analysis.R     # Cancer knockout analysis
+│   ├── 07_generate_deviation_data.R # NMD deviation data generation
+│   ├── 08_outlier_deviation_analysis.R # Outlier deviation analysis
+│   ├── 09_oxr1_knockdown_analysis.R   # OXR1 knockdown analysis (Fig 5A)
+│   └── 10_oxr1_deviation_regression.R # OXR1 deviation regression (Fig 5B)
+├── data/                            # Data files (see Data Requirements)
+└── output/                          # Generated outputs
+    ├── plots/                       # Publication-ready figures
+    └── tables/                      # Summary tables and results
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
-- R (version ≥ 4.0.0)
+- R (version >= 4.0.0)
 - Internet connection (for biomaRt queries)
 - Sufficient RAM (>8GB recommended for large datasets)
 
@@ -42,21 +46,22 @@ Trans-acting-NMD-QTL/
 
 ### Running the Analysis
 
-#### Option 1: Run All Analyses (Recommended)
-```R
-# From the Git folder:
-source("scripts/run_all_analyses.R")
-```
+Scripts are designed to be run individually from the `scripts/` directory:
 
-#### Option 2: Run Individual Modules
 ```R
-# Run specific analyses
-source("scripts/01_tissue_distribution.R")
-source("scripts/02_snp_annotation.R")
+setwd("scripts/")
+source("01_tissue_distribution.R")
+source("02_snp_annotation.R")
 # ... etc
 ```
 
-## 📊 Analysis Modules
+Scripts `07`-`10` require external data (GTEx, Cancer KO) not included in this repository. Set the `NMD_PROJECT_DIR` environment variable to point to the project root containing these data directories, or adjust the `BASE_DIR` variable at the top of each script.
+
+```R
+Sys.setenv(NMD_PROJECT_DIR = "/path/to/your/project/root")
+```
+
+## Analysis Modules
 
 ### 1. Data Loading (`00_data_loading.R`)
 - Loads significant SNP data
@@ -93,31 +98,56 @@ source("scripts/02_snp_annotation.R")
 - Creates differential expression boxplots
 - Performs statistical significance testing
 
-## 📋 Data Requirements
+### 8. Deviation Data Generation (`07_generate_deviation_data.R`)
+- Generates deviation data for all 81 overlapped genes between NMD-QTL mapping and GTEx
+- Computes RINT-based deviation scores for NMD transcripts
+- Creates per-gene deviation files used by downstream analyses
+- Requires: GTEx expression data, Manuscript/Tables.xlsx
 
-The following data files are expected in the project root (one level up from Git folder):
+### 9. Outlier Deviation Analysis (`08_outlier_deviation_analysis.R`)
+- Analyzes relationship between NMD factor expression and outlier deviations
+- Creates outlier proportion line plots across expression deciles
+- Generates scatter plots and correlation bar plots
+- Produces heatmaps of outlier proportions for significant genes
 
-### Required Files
+### 10. OXR1 Knockdown Analysis (`09_oxr1_knockdown_analysis.R`) - Figure 5A
+- Analyzes NMD transcript expression changes upon OXR1 knockdown
+- Compares NMD-targeted vs non-NMD-targeted transcripts
+- Uses signed log fold change to preserve directionality
+- Generates boxplots, violin plots, and density plots
+
+### 11. OXR1 Deviation Regression (`10_oxr1_deviation_regression.R`) - Figure 5B
+- Analyzes OXR1 expression vs average absolute deviation in Brain Cerebellum
+- Performs linear regression analysis
+- Generates scatter plots with regression lines
+
+## Data Requirements
+
+### Included in Repository (`data/`)
 - `significant_SNP.RData` - Significant SNP results
 - `NMD_gene_list.RData` - NMD gene annotations
 - `plot_man_anno.csv` - Manhattan plot annotation data
 - `sig_snp_gene_id_mapped_res.csv` - SNP-gene mapping results
+- `sig_snp_gwas_catalog.csv` - GWAS catalog overlap results
+- `oxr1_tx_count_data_nmd_anno.csv` - OXR1 knockdown transcript data
+- `near_gens_NMD_SNP.txt` - Nearest genes to NMD SNPs
 
-### Optional Files (for full functionality)
-- `gwas_catalog_v1.0.2-associations_e112_r2024-09-22.tsv` - GWAS catalog data
-- `pathway/pathways_info.csv` - Pathway information
-- `RBP_map/RBP2GO_dataset.txt` - RBP dataset
-- `Cancer_KO/level5_beta_trt_xpr_n142901x12328_nmd_genes.RData` - Cancer KO data
+### External Data (not included)
+- `RBP2GO_dataset.txt` - RBP dataset (required for script 05; download from [RBP2GO](https://rbp2go.dkfz.de/))
+- GTEx gene expression data v8 TPM (required for script 07)
+- GTEx NMD transcript expression data (required for script 07)
+- GTEx sample attributes (required for script 07)
+- `Manuscript/Tables.xlsx` - Supplementary tables (required for script 07)
+- `Cancer_KO/` - Cancer knockout deviation data (required for scripts 08, 10)
 
-## 📈 Output Description
+## Output Description
 
 ### Plots (`output/plots/`)
 - `tissue_distribution.pdf/jpeg` - Tissue distribution bar plot
 - `manhattan_plot.pdf/jpeg` - Annotated Manhattan plot
-- `manhattan_plot_basic.pdf/jpeg` - Basic Manhattan plot
 - `tissue_gwas_diseases.pdf/jpeg` - GWAS-tissue distribution
-- `oxr1_expression_boxplot_*.pdf/jpeg` - Expression boxplots
-- `cancer_ko_boxplot_*.pdf/jpeg` - Cancer knockout boxplots
+- `Fig5a_oxr1_*.pdf/jpeg` - OXR1 knockdown expression plots
+- `Fig5b_OXR1_vs_deviation_*.pdf/jpeg` - OXR1 deviation regression plots
 
 ### Tables (`output/tables/`)
 - `tissue_distribution_summary.csv` - Tissue distribution statistics
@@ -125,65 +155,14 @@ The following data files are expected in the project root (one level up from Git
 - `annotation_summary.csv` - SNP annotation summary
 - `gwas_overlap_summary.csv` - GWAS overlap statistics
 
-### Analysis Results
-- `output/GWAS_overlap/` - GWAS catalog overlap results
-
-## 🔧 Configuration Options
-
-### Modifying Analysis Parameters
-
-Edit parameters at the top of individual scripts:
-
-```R
-# In 05_gwas_overlap.R
-window_size <- 1e5  # Change window size around SNPs
-
-# In 04_go_analysis.R
-pvalue_cutoff <- 0.05  # Change GO analysis p-value threshold
-
-# In 00_data_loading.R
-# Modify color schemes and plotting parameters
-```
-
-### Adding New Analyses
-
-1. Create new script in `scripts/` folder
-2. Follow naming convention: `XX_analysis_name.R`
-3. Add to `run_all_analyses.R` pipeline
-
-## 🛠 Troubleshooting
-
-### Common Issues
-
-1. **biomaRt connection errors**
-   ```R
-   # Try different mirrors
-   mart <- useEnsembl("ensembl", dataset="hsapiens_gene_ensembl", 
-                      mirror="useast")
-   ```
-
-2. **Missing data files**
-   - Check file paths in error messages
-   - Verify data file locations
-   - Some analyses will need data with permision
-
-### Error Reporting
-
-When reporting issues, please include:
-- R version and platform
-- Error message and stack trace
-- Which analysis script failed
-- Available data files
-
-## 📚 Dependencies
+## Dependencies
 
 ### R Packages
 
 **CRAN Packages:**
-- tidyverse, ggplot2, ggrepel
-- viridis, RColorBrewer, gridExtra
-- data.table, reshape2, broom
-- igraph, coloc
+- tidyverse, ggplot2, ggrepel, ggpubr
+- viridis, RColorBrewer, gridExtra, patchwork
+- data.table, reshape2, broom, readxl, scales
 
 **Bioconductor Packages:**
 - biomaRt, GenomicRanges
@@ -194,26 +173,16 @@ When reporting issues, please include:
 - Ensembl biomaRt (for gene annotation)
 - GWAS Catalog (for disease associations)
 - dbSNP (for SNP annotations)
+- GTEx Portal (for expression data)
 
-## 📄 Citation
+## Citation
 
 If you use this pipeline in your research, please cite:
 
 ```
-
+[Citation to be added upon publication]
 ```
 
-## 🤝 Contributing
-
-This pipeline was developed for a specific research project. For modifications or extensions:
-
-1. Fork the repository
-2. Create analysis branches
-3. Submit pull requests with detailed descriptions
-4. Include test data when possible
-
-
-## 📜 License
+## License
 
 This code is provided for research purposes. Please see the license file for details.
-
